@@ -1,0 +1,31 @@
+{
+  "name": "bridgeguard",
+  "version": "1.0.0",
+  "description": "Cross the bridge of despair!",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puentebravo/bridgeGuard.git"
+  },
+  "keywords": [
+    "practice",
+    "JQUERY",
+    "SQL"
+  ],
+  "author": "Charlie Puente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puentebravo/bridgeGuard/issues"
+  },
+  "homepage": "https://github.com/puentebravo/bridgeGuard#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mysql": "^2.18.1"
+  }
+}
