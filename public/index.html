@@ -16,12 +16,12 @@
       crossorigin="anonymous"
     ></script>
     <link href="./assets/css/styles.css" rel="stylesheet" />
-    <title>Beware! The Bridge of Despair!</title>
+    <title>Beware! The Bridge of Death!</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nav</a>
+        <a class="navbar-brand" href="/">Nav</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="/about">About</a>
             </li>
           </ul>
         </div>
@@ -48,18 +48,55 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="card text-center">
-          <div class="card-header">Featured</div>
+          <div class="card-header">Welcome...</div>
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
+            <h5 class="card-title">TO THE BRDIGE. OF. DEATH!</h5>
             <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
+              If you wish to cross ALIVE... answer me these questions three!
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">What... is your name?</p>
+            <input
+              class="form-control form-control-lg"
+              id="nameAns"
+              type="text"
+              placeholder="Name!"
+              aria-label="Your name here, mortal!"
+            />
+            <p class="card-text">What... is your favorite color?</p>
+            <input
+              class="form-control form-control-lg"
+              id="colorAns"
+              type="text"
+              placeholder="Color?"
+              aria-label="Answer with your color here!"
+            />
+            <p class="card-text">
+              What... is the air-speed velocity of an unladen sparrow??
+            </p>
+            <input
+              class="form-control form-control-lg"
+              id="sparrowAns"
+              type="text"
+              placeholder="Ahhhh hahahahah!"
+              aria-label="Oh, I hope they don't ask if it's african or european. That'd be a bummer."
+            />
+            <button type="button" class="btn btn-dark" id="aButton">
+              Ready to answer?
+            </button>
           </div>
-          <div class="card-footer text-muted">Answer if you dare!</div>
+          <div class="card-footer text-muted">
+            Great apologies to Monty Python, who did much better justice to this
+            joke in their immortal film Monty Python's Holy grail, which you
+            absolutely must go watch immediately if you haven't seen it yet.
+          </div>
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
